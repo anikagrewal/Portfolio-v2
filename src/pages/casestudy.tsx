@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import CaseHeader from "@/components/CaseHeader";
 import Colours from "@/components/CaseStudy/Colours";
+import Mascots from "@/components/CaseStudy/Mascots";
 
 export default function CaseStudy() {
   return (
@@ -86,6 +87,7 @@ export default function CaseStudy() {
         <h2 className={`text-tbase pl-5`}>Colour:</h2>
         <Colours/>
         <h2 className={`text-tbase pl-5`}>Mascots:</h2>
+        <Mascots/>
         <h2 className={`text-tbase pl-5`}>Lo-Fi | Hi-Fi:</h2>
         <h2 className={`text-tbase pl-5`}>Coding:</h2>
         <h2 className={`text-tbase pl-5`}>Sentiment Analysis | Privacy Concerns:</h2>
