@@ -37,7 +37,8 @@ const config: Config = {
       imgH: '70rem'
      },
      width: {
-      imgW: '40rem'
+      imgW: '40rem',
+      textW: '30rem'
      }
     },
   },
