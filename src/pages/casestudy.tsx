@@ -5,6 +5,7 @@ import CaseHeader from "@/components/CaseHeader";
 import Colours from "@/components/CaseStudy/Colours";
 import Mascots from "@/components/CaseStudy/Mascots";
 import Sapc from "@/components/CaseStudy/SAPC";
+import Logo from "@/components/CaseStudy/Logo";
 
 export default function CaseStudy() {
   return (
@@ -85,6 +86,7 @@ export default function CaseStudy() {
         <h2 className={`text-tbase pl-5`}>Site Map:</h2>
         <h2 className={`text-h2 pl-5`}>Design Process:</h2>
         <h2 className={`text-tbase pl-5`}>Logo:</h2>
+        <Logo/>
         <h2 className={`text-tbase pl-5`}>Colour:</h2>
         <Colours/>
         <h2 className={`text-tbase pl-5`}>Mascots:</h2>
