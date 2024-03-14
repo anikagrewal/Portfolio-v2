@@ -1,7 +1,7 @@
 export default function Colours() {
     return(
         <div>
-             <p className={`pl-5 mb-8 mt-4 lg:w-imgW`}>Monochromatic Purple ~ Emphasize the feeling of calmness. The purples are cooler with a little bit of contrast for one or two shades so that the loud colours aren't as evoked for the user and potentially stress them out when using the application.</p>
+             <p className={`pl-5 lg:pl-20 mb-8 mt-4 lg:w-imgW`}>Monochromatic Purple ~ Emphasize the feeling of calmness. The purples are cooler with a little bit of contrast for one or two shades so that the loud colours aren't as evoked for the user and potentially stress them out when using the application.</p>
         <div className={`flex flex-col justify-center items-center gap-8 lg:flex-row lg:p-10`}>
             <div className={`flex flex-row gap-8`}>
                 <div className={`w-32 h-32 rounded-lg bg-colOne lg:w-40 lg:h-40`}>

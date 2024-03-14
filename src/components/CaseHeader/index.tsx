@@ -19,11 +19,11 @@ Your personal mental health compaion.</p>
             <div className={`flex flex-row gap-7 mt-7`}>
             <YellowBtn
             text="Visit Live Beta"
-            link=""
+            link="https://play.google.com/store/apps/details?id=ca.innersightapp.app&pcampaignid=web_share"
             />
              <YellowBtn
             text="Visit Code"
-            link=""
+            link="https://github.com/Mariessa-Pinto/innersight"
             />
             </div>
             </div>

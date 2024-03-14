@@ -24,6 +24,7 @@ const config: Config = {
      },
      fontSize: {
       base: '16px',
+      'lbase': '18px',
       'h1': '36px',
       'h2':'28px',
         'h4':'20px',
@@ -40,7 +41,8 @@ const config: Config = {
      width: {
       imgW: '40rem',
       textW: '30rem',
-      siteW: '50rem'
+      siteW: '50rem',
+      pW: '90rem'
      }
     },
   },
