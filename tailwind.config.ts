@@ -34,11 +34,13 @@ const config: Config = {
      },
      height: {
       header: '40rem',
-      imgH: '70rem'
+      imgH: '70rem',
+      siteH: '50rem'
      },
      width: {
       imgW: '40rem',
-      textW: '30rem'
+      textW: '30rem',
+      siteW: '50rem'
      }
     },
   },

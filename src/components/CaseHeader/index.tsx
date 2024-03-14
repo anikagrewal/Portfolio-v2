@@ -12,8 +12,8 @@ export default function CaseHeader() {
             <p className={`text-lightBlue text-center lg:w-96`}>Innersight is a journal app that utilizes artificial intelligence to help find problems in your day to day life and give insights on how to covercome these struggles.
 Your personal mental health compaion.</p>
 <div className={`flex flex-col gap-3 lg:flex-row lg:gap-10`}>
-<p className={`text-lightBlue`}>Roles: Project Manager & Developer</p>
-<p className={`text-lightBlue`}>Time Frame: Sept 2023 - Ongoing</p>
+<p className={`text-lightBlue font-bold`}>Roles: Project Manager & Developer</p>
+<p className={`text-lightBlue font-bold`}>Time Frame: Sept 2023 - Ongoing</p>
 </div>
             
             <div className={`flex flex-row gap-7 mt-7`}>

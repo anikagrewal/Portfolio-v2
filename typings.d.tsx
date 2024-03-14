@@ -15,3 +15,11 @@ interface IEmail {
 interface IPdf {
     pdfUrl: string,
 }
+
+interface ZoomProps {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+    className?: string;
+  }
