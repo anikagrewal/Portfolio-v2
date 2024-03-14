@@ -6,6 +6,7 @@ import Colours from "@/components/CaseStudy/Colours";
 import Mascots from "@/components/CaseStudy/Mascots";
 import Sapc from "@/components/CaseStudy/SAPC";
 import Logo from "@/components/CaseStudy/Logo";
+import SiteMap from "@/components/CaseStudy/SiteMap";
 
 export default function CaseStudy() {
   return (
@@ -84,6 +85,7 @@ export default function CaseStudy() {
         </div>
         <h2 className={`text-tbase pl-5`}>Persona:</h2>
         <h2 className={`text-tbase pl-5`}>Site Map:</h2>
+        <SiteMap src={"/images/sitemap.png"} alt={"sitemap"} width={300} height={500} className={`lg:w-siteW lg:h-siteH`} />
         <h2 className={`text-h2 pl-5`}>Design Process:</h2>
         <h2 className={`text-tbase pl-5`}>Logo:</h2>
         <Logo/>
