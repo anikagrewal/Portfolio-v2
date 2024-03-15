@@ -11,6 +11,7 @@ import Research from "@/components/CaseStudy/Research";
 import Coding from "@/components/CaseStudy/Coding";
 import Solution from "@/components/CaseStudy/Solution";
 import ScrollTop from "@/components/ScrollTop";
+import Persona from "@/components/CaseStudy/Persona";
 
 export default function CaseStudy() {
   return (
@@ -33,9 +34,10 @@ export default function CaseStudy() {
           <p className={`p-5 lg:text-lbase lg:pl-80 lg:pr-80`}>The project hopes to address the challenge of analyzing numerous journal entries to find correlations between the individual's activites and their mental health symptoms. Aiming to help individual's actively avoid or increase activities to improve their well-being.</p>
         </div>
         <h2 className={`text-tbase pl-5 lg:pl-32  pt-10 lg:pt-32`}>Research:</h2>
-        <p className={`pl-5 lg:pl-20 mb-8 mt-4 lg:w-imgW`}>Findings from interview questions and secondary research:</p>
+        <p className={`pl-5 lg:pl-32 mb-8 mt-4 lg:w-imgW`}>Findings from interview questions and secondary research:</p>
         <Research/>
         <h2 className={`text-tbase pl-5 lg:pl-32  pt-10 lg:pt-32`}>Persona:</h2>
+        <Persona/>
         <h2 className={`text-tbase pl-5 lg:pl-32  pt-10 lg:pt-32`}>Site Map:</h2>
         <SiteMap src={"/images/sitemap.png"} alt={"sitemap"} width={300} height={500} className={`lg:w-siteW lg:h-siteH`} />
         <h2 className={`text-h2 pl-5 lg:pl-32 pt-10 lg:pt-32`}>Design Process:</h2>
