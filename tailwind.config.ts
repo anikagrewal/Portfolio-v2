@@ -45,6 +45,9 @@ const config: Config = {
       siteW: '50rem',
       pW: '90rem',
       vidW: '45rem'
+     },
+     padding: {
+      headP: '80rem'
      }
     },
   },

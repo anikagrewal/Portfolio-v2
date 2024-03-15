@@ -1,5 +1,6 @@
 import PdfLink from "../PDF"
 import EmailLink from "../Email"
+import YellowBtn from "../YellowBtn";
 
 export default function Footer() {
     const userEmail = 'agrewal117@my.bcit.ca';
@@ -10,14 +11,24 @@ export default function Footer() {
             <div className={`flex flex-row justify-between justify-center items-center gap-5 bg-lightBlue w-screen p-4 mt-5 lg:p-10`}>
             <hr></hr>
                 <div>
-                <h2 className={`text-h2 font-bold`}>Contact Me</h2>
+                <h2 className={`text-h4 font-bold lg:text-h2`}>Contact Me</h2>
                 </div>
-                <div className={`flex flex-col gap-2 lg:flex-row lg:mr-64`}>
+                <div className={`flex flex-col gap-2  lg:mr-64`}>
                     <div className={`flex flex-row gap-3 justify-center items-center`}>
-                <a href="https://www.linkedin.com/in/anika-grewal-516712262">LinkedIn</a>
-                <a href="https://github.com/anikagrewal">Github</a>
+               
+                <YellowBtn
+            text="LinkedIn"
+            link="https://www.linkedin.com/in/anika-grewal-516712262"
+            />
+             <YellowBtn
+            text="Github"
+            link="https://github.com/anikagrewal"
+            />
+              
+              
                 </div>
                 <div className={`flex flex-row gap-3 justify-center items-center`}>
+              
                 <EmailLink email={userEmail} />
            <PdfLink pdfUrl={pdfUrl}/>
            </div>

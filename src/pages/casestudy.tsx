@@ -10,6 +10,7 @@ import SiteMap from "@/components/CaseStudy/SiteMap";
 import Research from "@/components/CaseStudy/Research";
 import Coding from "@/components/CaseStudy/Coding";
 import Solution from "@/components/CaseStudy/Solution";
+import ScrollTop from "@/components/ScrollTop";
 
 export default function CaseStudy() {
   return (
@@ -57,6 +58,7 @@ export default function CaseStudy() {
       </div>
 
       <footer>
+      <ScrollTop/>
         <Footer/>
       </footer>
    
