@@ -14,7 +14,7 @@ export default function NavBar() {
 
     
     return(
-        <div className={`sticky top-0 z-50 bg-blue`}>
+        <div className={`top-0 z-50 bg-blue`}>
             <div data-testid="navbar" className={`flex flex-row h-16 w-screen bg-lightBlue items-center justify-end pr-5 block md:hidden`}>
                 <div className={`cursor-pointer flex justify-center`} onClick={toggleOverlay}>
                     <Image
@@ -44,7 +44,7 @@ export default function NavBar() {
                     )
                 }
             </div>
-            <div data-testid="header" className={`flex flex-row h-10 w-screen bg-lightBlue items-center justify-between pl-5 pr-5 hidden md:flex lg:h-40 lg:justify-between lg:text=h1` }>
+            <div data-testid="header" className={`flex flex-row h-10 w-screen bg-lightBlue items-center justify-between pl-14 pr-20 hidden md:flex lg:h-40 lg:justify-between lg:text=h1` }>
               
                
                     <div>

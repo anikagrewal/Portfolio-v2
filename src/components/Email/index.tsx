@@ -1,34 +1,34 @@
 import React, { useState, MouseEvent } from 'react';
-import styles from '@/styles/Home.module.css';
 
 
-const EmailLink = ({ email }: IEmail) => {
+const EmailLinkWithButton = ({ email }: { email: string }) => {
   const [copied, setCopied] = useState(false);
 
-  const handleAction = (event: MouseEvent<HTMLAnchorElement>) => {
+  const handleAction = (event: MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
 
-    // Open email client
+  
     window.location.href = `mailto:${email}`;
 
-    // Copy to clipboard
+    
     navigator.clipboard.writeText(email);
     setCopied(true);
 
-    // Optionally, you can reset the copied state after a certain duration
+
     setTimeout(() => setCopied(false), 3000);
   };
 
   return (
-    <a
-      className={styles.linkTxt}
-      style={{ textDecoration: 'none' }}
-      href={`mailto:${email}`}
-      onClick={handleAction}
-    >
-      {copied ? 'Copied to Clipboard!' : 'Email'}
-    </a>
+    <div className={`flex flex-row gap-3 justify-center items-center`}>
+      <button
+        className={`cursor-pointer bg-darkBlue rounded-full border-2 w-32 h-10 border-yellow text-base text-yellow shadow-lg lg:w-64 lg:h-16 lg:text-h2`}
+        onClick={handleAction}
+      >
+        {copied ? 'Copied to Clipboard!' : 'Email'}
+      </button>
+   
+    </div>
   );
 };
 
-export default EmailLink;
+export default EmailLinkWithButton;

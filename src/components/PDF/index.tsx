@@ -1,24 +1,19 @@
 import React from 'react';
-import styles from '@/styles/Home.module.css';
 
 
 const PdfLink = ({ pdfUrl }: IPdf) => {
-  const handleOpenPdf = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  const handleOpenPdf = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     event.preventDefault();
     window.open(pdfUrl, '_blank');
   };
 
   return (
-    <a
-      className={styles.linkTxt}
-      style={{ textDecoration: 'none' }}
-      href={pdfUrl}
+    <button
+      className={`cursor-pointer bg-darkBlue rounded-full border-2 w-32 h-10 border-yellow text-base text-yellow shadow-lg lg:w-64 lg:h-16 lg:text-h2`} 
       onClick={handleOpenPdf}
-      target="_blank"
-      rel="noopener noreferrer"
     >
       Resume
-    </a>
+    </button>
   );
 };
 
