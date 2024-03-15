@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Mascots() {
     return(
         <div>
-            <p className={`pl-5 lg:pl-20 mb-8 mt-4 lg:w-imgW`}>The users have the option to customize their mascot so that they can feel that there is a personalized companion that is following and guiding them through their mental health journey.</p>
+            <p className={`pl-5 lg:pl-32 mb-8 mt-4 lg:w-imgW`}>The users have the option to customize their mascot so that they can feel that there is a personalized companion that is following and guiding them through their mental health journey.</p>
             <div className={`flex flex-col justify-center items-center gap-8 lg:flex-row`}>
             <div className={`flex flex-row p-5 gap-5 lg:gap-20`}>
             <div className={`ml-5`}>

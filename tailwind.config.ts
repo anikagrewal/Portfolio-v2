@@ -36,13 +36,15 @@ const config: Config = {
      height: {
       header: '40rem',
       imgH: '70rem',
-      siteH: '50rem'
+      siteH: '50rem',
+      vidH: '30rem'
      },
      width: {
       imgW: '40rem',
       textW: '30rem',
       siteW: '50rem',
-      pW: '90rem'
+      pW: '90rem',
+      vidW: '45rem'
      }
     },
   },
