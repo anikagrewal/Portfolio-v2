@@ -23,9 +23,9 @@ export default function Home() {
        </div>
        <Feature/>
       
-
+       <ScrollTop/>
 <footer>
-<ScrollTop/>
+
   <Footer/>
 </footer>
    

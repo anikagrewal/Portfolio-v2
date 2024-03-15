@@ -32,7 +32,7 @@ export default function ScrollTop() {
   return (
     <div>
       {isVisible && (
-          <div className="fixed bottom-10 right-5 lg:bottom-20 lg:right-20 z-50">
+          <div className="fixed bottom-20 right-5 lg:bottom-20 lg:right-20 z-50">
           <Image 
             src={'/images/arrow.svg'}
             alt="Back to Top"

@@ -13,7 +13,7 @@ export default function Footer() {
                 <div>
                 <h2 className={`text-h4 font-bold lg:text-h2`}>Contact Me</h2>
                 </div>
-                <div className={`flex flex-col gap-2  lg:mr-64`}>
+                <div className={`flex flex-col gap-2 mr-5lg:mr-64`}>
                     <div className={`flex flex-row gap-3 justify-center items-center`}>
                
                 <YellowBtn
