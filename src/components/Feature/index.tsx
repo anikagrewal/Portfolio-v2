@@ -23,7 +23,7 @@ export default function Feature() {
             <div className={`flex justify-center mt-10`}>
             <Button
             text="PagePal"
-            link='/development'
+            link='/pagepal'
             
           />
             </div>

@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import Develop from "@/components/Develop";
 import ScrollTop from "@/components/ScrollTop";
 
-export default function Development() {
+export default function Rescue() {
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between bg-white`}
@@ -12,7 +12,7 @@ export default function Development() {
       <header>
       <NavBar/>
       </header>
-    <Develop/>
+ 
 <ScrollTop/>
       <footer>
         <Footer/>

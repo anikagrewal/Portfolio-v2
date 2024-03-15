@@ -38,14 +38,16 @@ const config: Config = {
       header: '40rem',
       imgH: '70rem',
       siteH: '50rem',
-      vidH: '30rem'
+      vidH: '30rem',
+      pageH: '30rem'
      },
      width: {
       imgW: '40rem',
       textW: '30rem',
       siteW: '50rem',
       pW: '90rem',
-      vidW: '45rem'
+      vidW: '45rem',
+      pageW: '55rem'
      },
      padding: {
       headP: '80rem'
