@@ -56,9 +56,9 @@ export default function CaseStudy() {
         <h2 className={`text-h2 pl-5 lg:pl-32 pt-10 lg:pt-32`}>Solution:</h2>
         <Solution/>
       </div>
-
-      <footer>
       <ScrollTop/>
+      <footer>
+      
         <Footer/>
       </footer>
    
