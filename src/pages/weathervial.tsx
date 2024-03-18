@@ -20,14 +20,12 @@ export default function WeatherVial() {
      
      <div  className={`flex flex-col justify-center items-center mb-8 lg:flex-row lg:gap-10`} >
       <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
-      <p>Text</p>
+      <p>Type in any location and the weather will be display for the current day, showcasing the temperature, a description of the weather, and the wind speed.</p>
       </div>
       <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
-      <p>Text</p>
+      <p>The scroll function allows individuals to be able to see the weather forecast for the next 5 days, every 3 hours. This showcases the time, temperature, a description of the weather, and the wind speed.</p>
       </div>
-      <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
-      <p>Text</p>
-      </div>
+      
      </div>
      <h2 className={`text-h2 pl-5 lg:pl-32 pt-10`}>Solution:</h2>
      <p className={`pl-5 pr-5 lg:pl-32 lg:pr-32 mb-8 mt-4`}>WeatherVial, is a weather app developed using Typescript and Tailwind in NextJS and powered by the Open Weather API. It integrates two API's together to get both current and the five day forecast.
