@@ -13,6 +13,26 @@ export default function WeatherVial() {
       <NavBar/>
       <WeatherHeader/>
       </header>
+      <div>
+      <h2 className={`text-h2 pl-5 lg:pl-32 pt-10`}>Challenge:</h2>
+      <p className={`pl-5 pr-5 lg:pl-32 lg:pr-32 mb-8 mt-4`}>This project hopes to solve the all in one weather forecast of both current and the next five days for every three hours
+        in a single, unified platform. The aim was address the needs of an individual who would like to know the weather of any city that they choose to search for.</p>
+     
+     <div  className={`flex flex-col justify-center items-center mb-8 lg:flex-row lg:gap-10`} >
+      <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
+      <p>Text</p>
+      </div>
+      <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
+      <p>Text</p>
+      </div>
+      <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
+      <p>Text</p>
+      </div>
+     </div>
+     <h2 className={`text-h2 pl-5 lg:pl-32 pt-10`}>Solution:</h2>
+     <p className={`pl-5 pr-5 lg:pl-32 lg:pr-32 mb-8 mt-4`}>WeatherVial, is a weather app developed using Typescript and Tailwind in NextJS and powered by the Open Weather API. It integrates two API's together to get both current and the five day forecast.
+       Using vector images and UI/UX design, a simple and unique layout was created for easy accessibility and a weather vial ambiance.</p>
+      </div>
  
 <ScrollTop/>
       <footer>
