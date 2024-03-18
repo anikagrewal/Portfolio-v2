@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Develop from "@/components/Develop";
 import ScrollTop from "@/components/ScrollTop";
 import RescueHeader from "@/components/RescueHeader";
+import Button from "@/components/Button";
 
 export default function Rescue() {
   return (
@@ -31,6 +32,17 @@ export default function Rescue() {
      </div>
      <h2 className={`text-h2 pl-5 lg:pl-32 pt-10`}>Solution:</h2>
      <p className={`pl-5 pr-5 lg:pl-32 lg:pr-32 mb-8 mt-4`}>Rescue Radar, is a adoptable dogs search and resource web app developed using Typescript and Tailwind, powered by the PetFinder API and Ninja Dogs API. This application allows individuals to search for all adoptable dogs in one go. It simplifies the process by allowing for filtering. Individuals are also able to take a quiz that will match them to the best breed fit for them, to allow for more ease on what breed they could look for.</p>
+      </div>
+      <div className={`flex flex-col justify-center items-center gap-5 mt-10 lg:mt-18`}>
+        <p className={`text-lbase`}>More Development Projects:</p>
+        <Button 
+        text="PagePal"
+        link="/pagepal"
+        />
+        <Button 
+        text="WeatherVial"
+        link="/weathervial"
+        />
       </div>
  
 <ScrollTop/>
