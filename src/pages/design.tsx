@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import ScrollTop from "@/components/ScrollTop";
 
 
 export default function Design() {
@@ -28,6 +29,7 @@ export default function Design() {
       <p className={`flex justify-center items-center`}>Radio Drawing ~ Adobe Illustrator</p>
       </div>
       </div>
+      <ScrollTop />
       <footer>
         <Footer/>
       </footer>
