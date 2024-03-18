@@ -31,6 +31,18 @@ export default function Develop() {
           />
             </div>
         </div>
+        <div className={`flex w-80 h-80 rounded-lg border-4 border-darkBlue flex-col lg:w-96 lg:h-96`}>
+            <div className={`flex justify-center items-center mt-10`}>
+          
+            </div>
+            <div className={`flex justify-center mt-5`}>
+            <Button
+            text="Rescue Radar"
+            link='/rescue'
+            
+          />
+            </div>
+        </div>
       
         </div>
         </div>
