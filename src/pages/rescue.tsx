@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Develop from "@/components/Develop";
 import ScrollTop from "@/components/ScrollTop";
+import RescueHeader from "@/components/RescueHeader";
 
 export default function Rescue() {
   return (
@@ -11,6 +12,7 @@ export default function Rescue() {
     >
       <header>
       <NavBar/>
+      <RescueHeader/>
       </header>
  
 <ScrollTop/>
