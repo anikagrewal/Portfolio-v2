@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import ScrollTop from "@/components/ScrollTop";
 import PageHeader from "@/components/PageHeader";
+import Button from "@/components/Button";
 
 export default function PagePal() {
   return (
@@ -35,6 +36,17 @@ export default function PagePal() {
         The application allows users to seamlessly organize and digitally track records for their books. It simplifies
          the process of adding and managing books, offering flexible search options by title or author, as well as convenient 
          filtering capabilities. Users can create customizable bookshelves, making it easy to categorize and locate books according to their preferences.</p>
+      </div>
+      <div className={`flex flex-col justify-center items-center gap-5 mt-10 lg:mt-18`}>
+        <p className={`text-lbase`}>More Development Projects:</p>
+        <Button 
+        text="WeatherVial"
+        link="/weathervial"
+        />
+        <Button 
+        text="Rescue Radar"
+        link="/rescue"
+        />
       </div>
  
 <ScrollTop/>
