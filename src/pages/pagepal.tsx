@@ -13,6 +13,29 @@ export default function PagePal() {
       <NavBar/>
       <PageHeader/>
       </header>
+      <div>
+      <h2 className={`text-h2 pl-5 lg:pl-32 pt-10`}>Challenge:</h2>
+      <p className={`pl-5 pr-5 lg:pl-32 lg:pr-32 mb-8 mt-4`}>This project hopes to solve the organization and management of both physical books and e-books 
+        in a single, unified platform. The aim was to address the needs of readers who want to effortlessly 
+        organize their existing book collection, both in physical and digital formats, and also discover new books.</p>
+     
+     <div  className={`flex flex-col justify-center items-center mb-8 lg:flex-row lg:gap-10`} >
+      <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
+      <p>The home page of the individual's library shows each shelf that they have created.</p>
+      </div>
+      <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
+      <p>This simplistic search page allows individual's to quickly search by author, book title, or genre</p>
+      </div>
+      <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
+      <p>The shelf page features the books that have been added, while allowing the individual to choose to add or remove books and change the name of the shelf.</p>
+      </div>
+     </div>
+     <h2 className={`text-h2 pl-5 lg:pl-32 pt-10`}>Solution:</h2>
+     <p className={`pl-5 pr-5 lg:pl-32 lg:pr-32 mb-8 mt-4`}>PagePal, is a personal library management web app developed using React and powered by the Google Books API. 
+        The application allows users to seamlessly organize and digitally track records for their books. It simplifies
+         the process of adding and managing books, offering flexible search options by title or author, as well as convenient 
+         filtering capabilities. Users can create customizable bookshelves, making it easy to categorize and locate books according to their preferences.</p>
+      </div>
  
 <ScrollTop/>
       <footer>
