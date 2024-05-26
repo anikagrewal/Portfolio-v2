@@ -43,8 +43,8 @@ const config: Config = {
      },
      width: {
       imgW: '40rem',
-      textW: '30rem',
-      siteW: '50rem',
+      textW: '25rem',
+      siteW: '65rem',
       pW: '90rem',
       vidW: '45rem',
       pageW: '55rem'

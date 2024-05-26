@@ -15,18 +15,18 @@ export default function Design() {
       <div className={`pr-64 mt-5 lg:pr-headP`}>
         <h2 className={`text-h2 lg:text-h1`}>Design</h2>
         </div>
-        <div className={`flex flex-col justify-center items-center gap-14 mt-10 mb-10`}>
+        <div className={`flex flex-row justify-center items-end gap-14 mt-10 mb-10`}>
         <div>
       <Image src={'/images/rihannaport.png'} alt="rihanna poster" width={400} height={700} />
-      <p className={`flex justify-center items-center`}>Rihanna Poster ~ Adobe Photoshop ~ Multiple tools</p>
+      <p className={`flex justify-center items-center lg:text-lbase`}>Rihanna Poster ~ Adobe Photoshop ~ Multiple tools</p>
       </div>
       <div>
       <Image src={'/images/paintingport.png'} alt="rihanna poster" width={400} height={700} />
-      <p className={`flex justify-center items-center`}>Woman Portrait ~ Adobe Photoshop ~ Pen Tool</p>
+      <p className={`flex justify-center items-center lg:text-lbase`}>Woman Portrait ~ Adobe Photoshop ~ Pen Tool</p>
       </div>
       <div>
       <Image src={'/images/radioport.png'} alt="rihanna poster" width={400} height={700} />
-      <p className={`flex justify-center items-center`}>Radio Drawing ~ Adobe Illustrator</p>
+      <p className={`flex justify-center items-center lg:text-lbase`}>Radio Drawing ~ Adobe Illustrator</p>
       </div>
       </div>
       <ScrollTop />

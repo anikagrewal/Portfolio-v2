@@ -9,10 +9,10 @@ export default function PageHeader() {
             </div>
             <div className={`flex flex-col justify-content items-center gap-3`}>
             <h1 className={`text-h1 text-lightBlue`}>PagePal</h1>
-            <p className={`text-lightBlue text-center lg:w-96`}>PagePal is a React-based personal library management web app, providing individuals seamless book management, easy search options, and customizable bookshelves.</p>
+            <p className={`text-lightBlue text-center lg:w-96 lg:text-lbase`}>PagePal is a React-based personal library management web app, providing individuals seamless book management, easy search options, and customizable bookshelves.</p>
 <div className={`flex flex-col gap-3 lg:flex-row lg:gap-10`}>
-<p className={`text-lightBlue font-bold`}>Roles: Developer</p>
-<p className={`text-lightBlue font-bold`}>Time Frame: Sept 2023 - Dec 2023</p>
+<p className={`text-lightBlue font-bold lg:text-lbase`}>Roles: Developer</p>
+<p className={`text-lightBlue font-bold lg:text-lbase`}>Time Frame: Sept 2023 - Dec 2023</p>
 </div>
             
             <div className={`flex flex-row gap-7 mt-7`}>
