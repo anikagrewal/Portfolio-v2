@@ -21,7 +21,15 @@ const config: Config = {
       colThree: '#88898C',
       colFour: '#C5C7F7',
       colFive: '#D5D7FF',
-      colSix: '#F2F2FD'
+      colSix: '#F2F2FD',
+      background: {
+        DEFAULT: '#ffffff',
+        dark: '#000000',
+      },
+      text: {
+        DEFAULT: '#000000',
+        dark: '#ffffff',
+      },
      },
      fontSize: {
       base: '16px',
