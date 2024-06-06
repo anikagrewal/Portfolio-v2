@@ -32,6 +32,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.bg-light-mode {
+  @apply bg-white text-black;
+}
+
+.bg-dark-mode {
+  @apply bg-black text-white;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
