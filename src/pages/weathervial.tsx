@@ -28,6 +28,7 @@ export default function WeatherVial() {
 
 
   return (
+    <div className={isDarkMode ? 'bg-dark-mode' : 'bg-light-mode'}>
     <main
       className={`flex min-h-screen flex-col items-center justify-between bg-white  lg:pr-48 lg:pl-48 pr-10 pl-10`}
     >
@@ -71,5 +72,6 @@ export default function WeatherVial() {
       </footer>
    
     </main>
+    </div>
   );
 }

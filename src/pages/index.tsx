@@ -27,6 +27,7 @@ export default function Home() {
   }, [isDarkMode]);
 
   return (
+    <div className={isDarkMode ? 'bg-dark-mode' : 'bg-light-mode'}>
     <main
       className={`flex min-h-screen flex-col items-center justify-between bg-white`}
     >
@@ -49,5 +50,6 @@ export default function Home() {
 </footer>
    
     </main>
+    </div>
   );
 }

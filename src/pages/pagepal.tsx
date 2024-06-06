@@ -27,6 +27,7 @@ export default function PagePal() {
   }, [isDarkMode]);
 
   return (
+    <div className={isDarkMode ? 'bg-dark-mode' : 'bg-light-mode'}>
     <main
       className={`flex min-h-screen flex-col items-center justify-between bg-white  lg:pr-48 lg:pl-48 pr-10 pl-10`}
     >
@@ -75,5 +76,6 @@ export default function PagePal() {
       </footer>
    
     </main>
+    </div>
   );
 }
