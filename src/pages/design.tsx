@@ -25,6 +25,7 @@ export default function Design() {
   }, [isDarkMode]);
 
   return (
+    <div className={isDarkMode ? 'bg-dark-mode' : 'bg-light-mode'}>
     <main
       className={`flex min-h-screen flex-col items-center justify-between bg-white`}
     >
@@ -53,5 +54,6 @@ export default function Design() {
         <Footer/>
       </footer>
     </main>
+    </div>
   );
 }
