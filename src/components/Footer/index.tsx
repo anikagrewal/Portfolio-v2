@@ -3,7 +3,7 @@ import EmailLink from "../Email"
 import YellowBtn from "../YellowBtn";
 
 export default function Footer() {
-    const userEmail = 'agrewal117@my.bcit.ca';
+    const userEmail = 'a.grewal.work@gmail.com';
  const pdfUrl = '/resume.pdf';
     return(
         <div id="contact">
