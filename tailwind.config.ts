@@ -22,6 +22,13 @@ const config: Config = {
       colFour: '#C5C7F7',
       colFive: '#D5D7FF',
       colSix: '#F2F2FD',
+      newBlue: "#A5CBD8",
+      newPurple: "#B4A2CC",
+      newGreen: "#72926b",
+      beige: "#F0EEE9",
+      darkBeige: "#d1cbbc",
+      darkGreen: "#556451",
+      textGreen: "#50664b",
       background: {
         DEFAULT: '#ffffff',
         dark: '#000000',
@@ -47,7 +54,9 @@ const config: Config = {
       imgH: '70rem',
       siteH: '50rem',
       vidH: '30rem',
-      pageH: '30rem'
+      pageH: '30rem',
+      headerH: "50rem"
+
      },
      width: {
       imgW: '40rem',

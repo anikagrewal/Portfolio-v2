@@ -8,7 +8,7 @@ export default function Footer() {
     return(
         <div id="contact">
 
-            <div className={`flex flex-row justify-center items-center lg:gap-56 bg-lightBlue w-screen p-4 mt-5 lg:p-10`}>
+            <div className={`flex flex-row justify-center items-center lg:gap-56 bg-darkBeige w-screen p-4 mt-5 lg:p-10`}>
             <hr></hr>
                 <div>
                 <h2 className={`text-h4 font-bold lg:text-h2 `}>Contact Me</h2>

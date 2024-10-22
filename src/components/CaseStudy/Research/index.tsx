@@ -6,7 +6,7 @@ export default function Research() {
           <div className={`flex flex-col justify-center items-center gap-5 mb-8`}>
             <h3 className={`text-h4 lg:text-tbase`}>Pyschological Barriers</h3>
             <div className="flex items-center gap-3">
-              <hr className={`flex-grow border-yellow border-2 h-52 lg:h-60`}></hr>
+              <hr className={`flex-grow border-newGreen border-2 h-52 lg:h-60`}></hr>
               <ul>
                 <li className={`lg:text-lbase`}>Motivation & consistency</li>
                 <li className={`lg:text-lbase`}>Perceived usefulness</li>
@@ -22,7 +22,7 @@ export default function Research() {
           <div className={`flex flex-col justify-center items-center gap-5 mb-8`}>
             <h3 className={`text-h4 lg:text-tbase`}>Technical/Functional Issues</h3>
             <div className="flex items-center gap-3">
-              <hr className={`flex-grow border-yellow border-2 h-28 lg:h-32`}></hr>
+              <hr className={`flex-grow border-newGreen border-2 h-28 lg:h-32`}></hr>
               <ul>
                 <li className={`lg:text-lbase`}>Lack of customization</li>
                 <li className={`lg:text-lbase`}>Simplistic features</li>
@@ -34,7 +34,7 @@ export default function Research() {
           <div className={`flex flex-col justify-center items-center gap-5 mb-8`}>
             <h3 className={`text-h4 lg:text-tbase`}>Privacy Concerns</h3>
             <div className="flex items-center gap-3">
-              <hr className={`flex-grow border-yellow border-2 h-10`}></hr>
+              <hr className={`flex-grow border-newGreen border-2 h-10`}></hr>
               <ul>
                 <li className={`lg:text-lbase`}>Data sharing through AI</li>
               </ul>

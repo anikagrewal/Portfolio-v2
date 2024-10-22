@@ -12,7 +12,7 @@ export default function Persona() {
                     <Image src="/images/smpersona.png" alt="persona" width={300} height={500} />
                 </div>
                 {/* This image will be shown only on large screens */}
-                <div className="hidden sm:flex md:flex">
+                <div className="hidden sm:flex md:flex md:flex-center md:justify-center">
                     <Image src="/images/smpersona.png" alt="persona" width={300} height={500} />
                 </div>
             </div>

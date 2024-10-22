@@ -9,7 +9,7 @@ const PdfLink = ({ pdfUrl }: IPdf) => {
 
   return (
     <button
-      className={`cursor-pointer bg-darkBlue rounded-full border-2 w-32 h-10 border-yellow text-base text-yellow shadow-lg lg:w-64 lg:h-16 lg:text-h2`} 
+      className={`cursor-pointer bg-beige rounded-full border-2 w-32 h-10 border-darkGreen text-base text-black hover:bg-darkGreen shadow-lg lg:w-64 lg:h-16 lg:text-h2`} 
       onClick={handleOpenPdf}
     >
       Resume

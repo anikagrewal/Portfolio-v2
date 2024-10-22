@@ -3,7 +3,7 @@ import Link from "next/link";
 const YellowBtn = ({ text, link }: ILargeButton) => {
     return (
         <Link href={link}>
-            <button data-testid="large-button" className={`cursor-pointer bg-darkBlue rounded-full border-2 w-32 h-10 border-yellow text-base text-yellow shadow-lg lg:w-64 lg:h-16 lg:text-h2`}>
+            <button data-testid="large-button" className={`cursor-pointer bg-beige rounded-full border-2 w-32 h-10 border-darkGreen hover:bg-darkGreen text-base text-black shadow-lg lg:w-64 lg:h-16 lg:text-h2`}>
                 {text}
             </button>
         </Link>

@@ -4,7 +4,7 @@ export default function Sapc() {
           <div className={`flex flex-col justify-center items-start mb-8 lg:flex-row lg:gap-6`}>
             <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
               <div>
-              <hr className={`h-80 border-yellow border-2`}></hr>
+              <hr className={`lg:h-80 border-newGreen border-2 md:h-28 h-64`}></hr>
               </div>
               <div>
               <ul>
@@ -18,7 +18,7 @@ export default function Sapc() {
             </div>
             <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
               <div>
-              <hr className={`h-36 border-yellow border-2`}></hr>
+              <hr className={`lg:h-36 border-newGreen border-2 md:h-20 h-32`}></hr>
               </div>
               <div>
               <ul>
@@ -31,7 +31,7 @@ export default function Sapc() {
             </div>
             <div className={`flex flex-row gap-3 justify-center items-center p-6 lg:w-textW`}>
               <div>
-              <hr className={`h-24 border-yellow border-2`}></hr>
+              <hr className={`lg:h-24 border-newGreen border-2 md:h-16 h-20`}></hr>
               </div>
               <div>
               <ul>
