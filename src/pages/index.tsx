@@ -29,22 +29,22 @@ export default function Home() {
   return (
     <div className={isDarkMode ? 'bg-dark-mode' : 'bg-light-mode'}>
     <main
-      className={`flex min-h-screen flex-col items-center justify-between bg-white`}
+      className={`flex min-h-screen flex-col items-center justify-between bg-beige`}
     >
       <header>
       <NavBar/>
       <Header/>
       </header> 
-      <div className={`pr-64 mt-5 lg:pr-headP`}>
+      <div className={`pr-64 mt-40 lg:pr-headP`}>
         <h2 className={`text-h2 lg:text-h1`}>Projects</h2>
         </div>
        <div>
-       <h3 className={`text-h4 mb-10 mt-5 lg:text-h2`}>Featured</h3>
+       <h3 className={`text-h4 mb-20 mt-5 lg:text-h2`}>Featured</h3>
        </div>
        <Feature/>
       
        <ScrollTop/>
-<footer>
+<footer className={`mt-40`}>
 
   <Footer/>
 </footer>

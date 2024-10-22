@@ -27,7 +27,7 @@ export default function Design() {
   return (
     <div className={isDarkMode ? 'bg-dark-mode' : 'bg-light-mode'}>
     <main
-      className={`flex min-h-screen flex-col items-center justify-between bg-white`}
+      className={`flex min-h-screen flex-col items-center justify-between bg-beige`}
     >
       <header>
       <NavBar/>

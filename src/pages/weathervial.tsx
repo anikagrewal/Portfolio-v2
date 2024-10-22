@@ -30,14 +30,14 @@ export default function WeatherVial() {
   return (
     <div className={isDarkMode ? 'bg-dark-mode' : 'bg-light-mode'}>
     <main
-      className={`flex min-h-screen flex-col items-center justify-between bg-white  lg:pr-48 lg:pl-48 pr-10 pl-10`}
+      className={`flex min-h-screen flex-col items-center justify-between bg-beige  lg:pr-48 lg:pl-48 pr-10 pl-10`}
     >
       <header>
       <NavBar/>
       <WeatherHeader/>
       </header>
       <div>
-      <h2 className={`text-h2 pl-5 lg:pl-32 pt-10`}>Challenge:</h2>
+      <h2 className={`text-h2 pl-5 lg:pl-32 pt-20`}>Challenge:</h2>
       <p className={`pl-5 pr-5 lg:pl-32 lg:pr-32 mb-8 mt-4 lg:text-lbase`}>This project hopes to solve the all in one weather forecast of both current and the next five days for every three hours
         in a single, unified platform. The aim was address the needs of an individual who would like to know the weather of any city that they choose to search for.</p>
      

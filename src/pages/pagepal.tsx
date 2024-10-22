@@ -29,14 +29,14 @@ export default function PagePal() {
   return (
     <div className={isDarkMode ? 'bg-dark-mode' : 'bg-light-mode'}>
     <main
-      className={`flex min-h-screen flex-col items-center justify-between bg-white  lg:pr-48 lg:pl-48 pr-10 pl-10`}
+      className={`flex min-h-screen flex-col items-center justify-between bg-beige  lg:pr-48 lg:pl-48 pr-10 pl-10`}
     >
       <header>
       <NavBar/>
       <PageHeader/>
       </header>
       <div>
-      <h2 className={`text-h2 pl-5 lg:pl-32 pt-10`}>Challenge:</h2>
+      <h2 className={`text-h2 pl-5 lg:pl-32 pt-20`}>Challenge:</h2>
       <p className={`pl-5 pr-5 lg:pl-32 lg:pr-32 mb-8 mt-4 lg:text-lbase`}>This project hopes to solve the organization and management of both physical books and e-books 
         in a single, unified platform. The aim was to address the needs of readers who want to effortlessly 
         organize their existing book collection, both in physical and digital formats, and also discover new books.</p>
