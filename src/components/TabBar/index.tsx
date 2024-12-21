@@ -66,7 +66,7 @@ export default function TabBar() {
     return (
         <div className={`min-h-screen flex flex-col`}>
             <div className={`sticky`}>
-                <div className={`flex justify-center`}>
+                <div className={`flex flex-wrap justify-center`}>
                     {tabs.map((tab) => (
                         <button 
                         key={tab.key}
