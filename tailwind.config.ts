@@ -55,7 +55,8 @@ const config: Config = {
       siteH: '50rem',
       vidH: '30rem',
       pageH: '30rem',
-      headerH: "50rem"
+      headerH: "50rem",
+      phH: '32rem'
 
      },
      width: {
@@ -64,7 +65,8 @@ const config: Config = {
       siteW: '65rem',
       pW: '90rem',
       vidW: '45rem',
-      pageW: '55rem'
+      pageW: '55rem',
+      phW: '110rem'
      },
      padding: {
       headP: '80rem'
