@@ -15,15 +15,22 @@ export default function TabBar() {
     const renderContent = () => {
         switch (activeTab) {
             case 'product':
-            return <div>Content for Product Design</div>;
+            return <div>In the process of creating...</div>;
             case 'logo':
-                return <div className={`flex flex-col justify-center w-full`}>
+                return <div className={`flex flex-col justify-center w-full gap-20`}>
                     <div className={`flex flex-col`}>
                     <Image src={'/images/mmlogo.svg'} alt="Moose Motors Logo" width={400} height={700} />
-                    <p className={`flex justify-center items-center lg:text-lbase pt-8`}>Moose Motors Logo Branding ~ Adobe Illustrator</p>
-                    </div></div>;
+                    <p className={`flex justify-center items-center lg:text-lbase pt-8`}>Moose Motors Logo ~ Adobe Illustrator</p>
+                    </div>
+                    <div className={`flex flex-col`}>
+                    <Image src={'/images/bwlogo.svg'} alt="BudgyWise Logo" width={300} height={600} />
+                    <p className={`flex justify-center items-center lg:text-lbase pt-8`}>BudgyWise Logo ~ Adobe Illustrator</p>
+                    </div>
+                    
+                    </div>;
+                    
             case 'vector':
-                return <div className={`flex flex-col justify-center w-full`}>
+                return <div className={`flex flex-col justify-center w-full gap-20`}>
                     <div className={`flex flex-col`}>
                     <Image src={'/images/radioport.png'} alt="rihanna poster" width={400} height={700} />
                     <p className={`flex justify-center items-center lg:text-lbase pt-8`}>Radio Drawing ~ Adobe Illustrator</p>
@@ -49,7 +56,7 @@ export default function TabBar() {
                     </div>
                     </div></div>;
             case 'artistic':
-                return <div>Content for Artistic Approaches</div>;  
+                return <div>In the process of creating...</div>;  
                 
             default:
                 return null;
