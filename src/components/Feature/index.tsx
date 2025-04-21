@@ -17,13 +17,13 @@ export default function Feature() {
             </div>
         </div>
         <div className={`flex w-80 h-80 rounded-lg border-4 border-darkGreen shadow-xl shadow-darkGreen flex-col lg:w-96 lg:h-96`}>
-            <div className={`flex justify-center items-center mt-10`}>
-                <Image src={'/images/pagepall.png'} alt="innersight" width={600} height={590}/>
+            <div className={`flex justify-center items-center`}>
+                <Image src={'/images/rescueCover.png'} alt="rescueradar" width={600} height={70}/>
             </div>
-            <div className={`flex justify-center mt-10`}>
+            <div className={`flex justify-center mt-5`}>
             <Button
-            text="PagePal"
-            link='/pagepal'
+            text="Rescue Radar"
+            link='/rescue'
             
           />
             </div>

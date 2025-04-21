@@ -18,11 +18,13 @@ export default function TabBar() {
                 return <div className={`flex flex-col justify-center w-full gap-20`}>
                     <div className={`flex flex-col`}>
                     <Image src={'/images/mmlogo.svg'} alt="Moose Motors Logo" width={400} height={700} />
-                    <p className={`flex justify-center items-center lg:text-lbase pt-8`}>Moose Motors Logo ~ Adobe Illustrator</p>
+                    <p className={`flex items-center justify-center lg:text-lbase text-darkGreen pt-4`}>Moose Motors Logo</p>
+                    <p className={`flex justify-center`}>Adobe Illustrator</p>
                     </div>
                     <div className={`flex flex-col`}>
                     <Image src={'/images/bwlogo.svg'} alt="BudgyWise Logo" width={300} height={600} />
-                    <p className={`flex justify-center items-center lg:text-lbase pt-8`}>BudgyWise Logo ~ Adobe Illustrator</p>
+                    <p className={`flex items-center justify-center lg:text-lbase text-darkGreen pt-4`}>BudgyWise Logo</p>
+                    <p className={`flex justify-center`}>Adobe Illustrator</p>
                     </div>
                     
                     </div>;
@@ -33,14 +35,15 @@ export default function TabBar() {
                 return <div className={`flex flex-col justify-center w-full gap-20`}>
                     <div className={`flex flex-col`}>
                     <Image src={'/images/radioport.png'} alt="rihanna poster" width={400} height={700} />
-                    <p className={`flex justify-center items-center lg:text-lbase pt-8`}>Radio Drawing ~ Adobe Illustrator</p>
+                    <p className={`flex items-center justify-center lg:text-lbase text-darkGreen pt-4`}>Radio Drawing</p>
+                    <p className={`flex justify-center`}>Adobe Illustrator</p>
                     </div></div>;
             case 'raster':
                  return <div className={`flex flex-col justify-center w-full gap-20`}>
                     <div className={`flex flex-col`}>
                     <Image src={'/images/rihannaport.png'} alt="rihanna poster" width={400} height={700}/>
                     <div className={`flex flex-col justify-center`}>
-                    <p className={`flex items-center justify-center lg:text-lbase text-darkGreen pt-4`}>Rihanna Poster</p>
+                    <p className={`flex items-center justify-center lg:text-lbase text-darkGreen pt-4`}>Concert Promotional Graphic</p>
                     <p className={`flex justify-center`}>November 2023</p>
                     <p className={`flex justify-center`}>Adobe photoshop</p>
                     </div>

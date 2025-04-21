@@ -23,7 +23,7 @@ export default function Develop() {
             <div className={`flex justify-center items-center mt-10`}>
                 <Image src={'/images/weather.svg'} alt="weather vial" width={200} height={400}/>
             </div>
-            <div className={`flex justify-center mt-10`}>
+            <div className={`flex justify-center mt-5`}>
             <Button
             text="WeatherVial"
             link='/weathervial'
@@ -32,10 +32,10 @@ export default function Develop() {
             </div>
         </div>
         <div className={`flex w-80 h-80 rounded-lg border-4 border-newGreen shadow-xl shadow-darkGreen flex-col lg:w-96 lg:h-96`}>
-            <div className={`flex justify-center items-center mt-10`}>
+            <div className={`flex justify-center items-center mt-5`}>
             <Image src={'/images/rescueCover.png'} alt="rescue radar" width={1000} height={1000}/>
             </div>
-            <div className={`flex justify-center mt-5`}>
+            <div className={`flex justify-center`}>
             <Button
             text="Rescue Radar"
             link='/rescue'

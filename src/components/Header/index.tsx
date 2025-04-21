@@ -13,7 +13,7 @@ export default function Header() {
 </div>
 <div className={`flex flex-col justify-center items-center text-black mt-10`}>
 <h1 className={`text-h1 lg:text-th1`}>Hey, I'm Anika!</h1>
-<h4 className={`text-h4 lg:text-h2`}>A Developer & UI/UX Designer</h4>
+<h4 className={`text-h4 lg:text-h2`}>A Developer & Graphic Designer</h4>
 <p className={`text-black mt-5 lg:text-h4`}>Bringing Digital Dreams to Life</p>
 </div>
 
