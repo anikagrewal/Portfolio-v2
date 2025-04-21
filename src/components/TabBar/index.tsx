@@ -2,20 +2,18 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 const tabs = [
-    { name: 'Product Design', key: 'product'},
     { name: 'Logo Branding', key: 'logo'},
+    { name: 'Product Design', key: 'product'},
     { name: 'Vector Graphics', key: 'vector'},
     { name: 'Raster Graphics', key: 'raster'},
     { name: 'Artistic Approaches', key: 'artistic'},
 ];
 
 export default function TabBar() {
-    const [activeTab, setActiveTab] = useState('product');
+    const [activeTab, setActiveTab] = useState('logo');
 
     const renderContent = () => {
         switch (activeTab) {
-            case 'product':
-            return <div>In the process of creating...</div>;
             case 'logo':
                 return <div className={`flex flex-col justify-center w-full gap-20`}>
                     <div className={`flex flex-col`}>
@@ -29,6 +27,8 @@ export default function TabBar() {
                     
                     </div>;
                     
+            case 'product':
+            return <div>In the process of creating...</div>;
             case 'vector':
                 return <div className={`flex flex-col justify-center w-full gap-20`}>
                     <div className={`flex flex-col`}>
