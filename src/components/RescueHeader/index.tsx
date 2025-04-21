@@ -6,7 +6,7 @@ export default function RescueHeader() {
         <div className={`flex flex-center justify-center mt-10`}>
         <div className={`flex bg-newPurple lg:w-pW  md:w-full h-header flex-col justify-center items-center rounded-md shadow-2xl shadow-darkGreen lg:flex-row lg:gap-8` }>
             <div>
-           <Image src={"/images/rescueCover.png"} alt="rescue Radar" width={2000} height={800} className={`lg:w-phW lg:h-phH`}/>
+           <Image src={"/images/rescueCover.png"} alt="rescue Radar" width={1000} height={1000} className={`lg:w-rhW lg:h-rhH`}/>
             </div>
             <div className={`flex flex-col justify-content items-center gap-3`}>
             <h1 className={`text-h1 text-black`}>Rescue Radar</h1>
