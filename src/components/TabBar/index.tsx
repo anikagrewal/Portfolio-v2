@@ -30,7 +30,14 @@ export default function TabBar() {
                     </div>;
                     
             case 'product':
-            return <div>In the process of creating...</div>;
+                return <div className={`flex flex-col justify-center w-full gap-20`}>
+                <div className={`flex flex-col`}>
+                <Image src={'/images/milkyzen.png'} alt="Matcha Can" width={400} height={700} />
+                <p className={`flex items-center justify-center lg:text-lbase text-darkGreen pt-4`}>Milky Zen Matcha Can Mockup</p>
+                <p className={`flex justify-center`}>Adobe Illustrator & Photoshop</p>
+                </div>
+                
+                </div>;
             case 'vector':
                 return <div className={`flex flex-col justify-center w-full gap-20`}>
                     <div className={`flex flex-col`}>
