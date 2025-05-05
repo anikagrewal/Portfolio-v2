@@ -2,15 +2,15 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 const tabs = [
+    { name: 'Artistic Approaches', key: 'artistic'},
     { name: 'Logo Branding', key: 'logo'},
     { name: 'Product Design', key: 'product'},
-    { name: 'Vector Graphics', key: 'vector'},
     { name: 'Raster Graphics', key: 'raster'},
-    { name: 'Artistic Approaches', key: 'artistic'},
+    { name: 'Vector Graphics', key: 'vector'},
 ];
 
 export default function TabBar() {
-    const [activeTab, setActiveTab] = useState('logo');
+    const [activeTab, setActiveTab] = useState('artistic');
 
     const renderContent = () => {
         switch (activeTab) {
@@ -69,7 +69,7 @@ export default function TabBar() {
                 return <div className={`flex flex-col justify-center w-full gap-20`}>
                 <div className={`flex flex-col`}>
                 <Image src={'/images/temps.svg'} alt="vancouver tempest logo" width={800} height={900} />
-                <p className={`flex items-center justify-center lg:text-lbase text-darkGreen pt-4`}>Mockup ~ Vancouver Tempest PWHL</p>
+                <p className={`flex items-center justify-center lg:text-lbase text-darkGreen pt-4`}>Logo Variation Ideas ~ Vancouver Tempest PWHL</p>
                 <p className={`flex justify-center`}>Adobe Illustrator</p>
                 </div></div>;
                 
