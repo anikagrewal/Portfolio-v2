@@ -66,7 +66,12 @@ export default function TabBar() {
                     </div>
                     </div></div>;
             case 'artistic':
-                return <div>In the process of creating...</div>;  
+                return <div className={`flex flex-col justify-center w-full gap-20`}>
+                <div className={`flex flex-col`}>
+                <Image src={'/images/temps.svg'} alt="vancouver tempest logo" width={800} height={900} />
+                <p className={`flex items-center justify-center lg:text-lbase text-darkGreen pt-4`}>Mockup ~ Vancouver Tempest PWHL</p>
+                <p className={`flex justify-center`}>Adobe Illustrator</p>
+                </div></div>;
                 
             default:
                 return null;
