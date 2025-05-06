@@ -28,11 +28,11 @@ export default function Feature() {
           />
             </div>
         </div>
-        <div className={`flex w-80 h-72 rounded-lg border-4 border-darkGreen shadow-xl shadow-darkGreen flex-col lg:w-96 lg:h-96`}>
+        <div className={`flex w-80 h-80 rounded-lg border-4 border-darkGreen shadow-xl shadow-darkGreen flex-col lg:w-96 lg:h-96`}>
             <div className={`flex justify-center items-center mt-10 lg:mt-14`}>
                 <Image src={'/images/vtcard.png'} alt="vancouver tempest" width={260} height={260} />
             </div>
-            <div className={`flex justify-center mt-10 lg:mt-6`}>
+            <div className={`flex justify-center mt-3 lg:mt-6`}>
             <Button
             text="Van PWHL"
             link='/vantemps'
