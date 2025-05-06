@@ -35,7 +35,7 @@ export default function Radio() {
      
       </header>
       <div>
-
+      <p>Under Creative Renovation, hold tight!</p>
       </div>
       <div className={`flex flex-col justify-center items-center gap-5 mt-10 lg:mt-18`}>
         <p className={`text-lbase`}>Back to Design:</p>
