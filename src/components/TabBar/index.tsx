@@ -1,7 +1,140 @@
+'use client';
 import { useState } from 'react';
-import Image from 'next/image';
+import ProjectCard from '../ProjectCard/projectCard';
 
-const tabs = [
+type TabKey = 'artistic' | 'logo' | 'product' | 'graphics';
+
+const tabs: {name: string; key: TabKey }[] = [
+    {name: 'Artistic Approaches', key: 'artistic'},
+    {name: 'Logo Branding', key: 'logo'},
+    {name: 'Product Design', key: 'product'},
+    {name: 'Graphics', key: 'graphics'},
+];
+
+const projectData: Record<TabKey, { imageSrc: string; alt: string; name: string; href: string }[]> = {
+    artistic: [
+      {
+        imageSrc: '/images/Vantemps.svg',
+        alt: 'Vancouver Tempest Logo',
+        name: 'Vancouver PWHL Branding Concepts',
+        href: '/vantemps',
+      },
+    ],
+    logo: [
+      {
+        imageSrc: '/images/mmlogo.svg',
+        alt: 'Moose Motors Logo',
+        name: 'Moose Motors',
+        href: '/moosemotors',
+      },
+      {
+        imageSrc: '/images/bwlogo.svg',
+        alt: 'BudgyWise Logo',
+        name: 'BudgyWise',
+        href: '/budgywise',
+      },
+    ],
+    product: [
+      {
+        imageSrc: '/images/matcha.png',
+        alt: 'Milky Zen Matcha Can',
+        name: 'Milky Zen Matcha Can',
+        href: '/matcha',
+      },
+    ],
+    graphics: [
+      {
+        imageSrc: '/images/rihannaport.png',
+        alt: 'Rihanna Poster',
+        name: 'Concert Promotional Graphic',
+        href: '/concert',
+      },
+      {
+        imageSrc: '/images/paintingport.png',
+        alt: 'Woman Portrait',
+        name: 'Paint Brush Tool Portrait',
+        href: '/portrait',
+      },
+      {
+        imageSrc: '/images/radioport.png',
+        alt: 'Radio Drawing',
+        name: 'Vector Radio Drawing',
+        href: '/radio',
+      },
+    ],
+  };
+  
+  export default function TabBar() {
+    const [activeTab, setActiveTab] = useState<TabKey>('artistic');
+  
+    return (
+      <div className="min-h-screen flex flex-col">
+        {/* Tab Header */}
+        <div className="sticky top-0 z-10">
+          <div className="flex flex-wrap justify-center gap-4 p-4 border-b">
+            {tabs.map((tab) => (
+              <button
+                key={tab.key}
+                className={`px-6 py-2 text-base sm:text-lg transition-colors ${
+                  activeTab === tab.key
+                    ? 'border-b-4 border-newGreen text-darkGreen'
+                    : 'text-black hover:text-newGreen'
+                }`}
+                onClick={() => setActiveTab(tab.key)}
+              >
+                {tab.name}
+              </button>
+            ))}
+          </div>
+        </div>
+  
+        {/* Tab Content */}
+        <div className="pt-12 px-4 sm:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {projectData[activeTab].map((project) => (
+              <ProjectCard key={project.name} {...project} />
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* const tabs = [
     { name: 'Artistic Approaches', key: 'artistic'},
     { name: 'Logo Branding', key: 'logo'},
     { name: 'Product Design', key: 'product'},
@@ -103,3 +236,4 @@ export default function TabBar() {
         </div>
     )
 }
+    */ 
