@@ -29,6 +29,8 @@ const config: Config = {
       darkBeige: "#d1cbbc",
       darkGreen: "#556451",
       textGreen: "#50664b",
+      whlBlue: '#0F4777',
+     whlCream: '#EEE9D8',
       background: {
         DEFAULT: '#ffffff',
         dark: '#000000',
@@ -56,7 +58,8 @@ const config: Config = {
       vidH: '30rem',
       pageH: '30rem',
       headerH: "50rem",
-      phH: '32rem'
+      phH: '32rem',
+      whl: '20rem',
 
      },
      width: {

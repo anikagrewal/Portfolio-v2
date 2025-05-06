@@ -14,7 +14,7 @@ const tabs: {name: string; key: TabKey }[] = [
 const projectData: Record<TabKey, { imageSrc: string; alt: string; name: string; href: string }[]> = {
     artistic: [
       {
-        imageSrc: '/images/Vantemps.svg',
+        imageSrc: '/images/vtcard.png',
         alt: 'Vancouver Tempest Logo',
         name: 'Vancouver PWHL Branding Concepts',
         href: '/vantemps',
