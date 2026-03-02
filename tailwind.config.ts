@@ -31,6 +31,16 @@ const config: Config = {
       textGreen: "#50664b",
       whlBlue: '#0F4777',
      whlCream: '#EEE9D8',
+     bwGreen: '#ABB36C',
+     bwLtGreen: '#bac186',
+     bwDGreen: '#394a27',
+     bwBlue: '#7cbfd9',
+     bwLtBlue: '#abd7e5',
+     bwDBlue: '#20586f',
+     bwBlack: '#000000',
+     bwBeige: '#e7cd9c',
+     bwDBeige: '#c89656',
+     bwGrey: '#3E3F42',
       background: {
         DEFAULT: '#ffffff',
         dark: '#000000',
@@ -53,6 +63,7 @@ const config: Config = {
      },
      height: {
       header: '40rem',
+      head: '45rem',
       imgH: '70rem',
       siteH: '50rem',
       vidH: '30rem',
@@ -69,7 +80,8 @@ const config: Config = {
       pW: '90rem',
       vidW: '45rem',
       pageW: '55rem',
-      phW: '110rem'
+      phW: '110rem',
+      logoW: '10rem'
      },
      padding: {
       headP: '80rem'

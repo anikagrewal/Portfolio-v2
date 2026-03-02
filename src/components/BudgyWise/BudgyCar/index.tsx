@@ -3,57 +3,50 @@ import Image from "next/image";
 
 // 1. Fixed the object syntax here (no curly braces around the values)
 const slides = [
+    {
+        src: "/images/bwmark7.png",
+        caption: "",
+      },
+      {
+        src: "/images/bwmark8.png",
+        caption: "",
+      },
+      {
+        src: "/images/bwmark9.png",
+        caption: "",
+      },
+      {
+        src: "/images/bwmark10.png",
+        caption: "",
+      },
   {
-    src: "/images/bwone.svg", 
-    caption: "Homepage Welcoming Budgy",
+    src: "/images/bwmark1.png", 
+    caption: "",
   },
   {
-    src: "/images/bwtwo.svg",
-    caption: "Judgement Free",
+    src: "/images/bwmark2.png",
+    caption: "",
   },
   {
-    src: "/images/bwthree.svg",
-    caption: "Empathy",
+    src: "/images/bwmark3.png",
+    caption: "",
   },
   {
-    src: "/images/bwfour.svg",
-    caption: "Accountability",
+    src: "/images/bwmark4.png",
+    caption: "",
   },
   {
-    src: "/images/bwfive.svg",
-    caption: "Confidentiality",
+    src: "/images/bwmark5.png",
+    caption: "",
   },
   {
-    src: "/images/bwsix.svg",
-    caption: "Personalization",
+    src: "/images/bwmark6.png",
+    caption: "",
   },
-  {
-    src: "/images/bwseven.svg",
-    caption: "Investment",
-  },
-  {
-    src: "/images/bweight.svg",
-    caption: "Partnership",
-  },
-  {
-    src: "/images/bwnine.svg",
-    caption: "Financial Confidence",
-  },
-  {
-    src: "/images/bwten.svg",
-    caption: "Budget Building",
-  },
-  {
-    src: "/images/bweleven.svg",
-    caption: "Budgy Member",
-  },
-  {
-    src: "/images/bwtwelve.svg",
-    caption: "Budgy Member",
-  },
+
 ];
 
-export default function Carousel() {
+export default function BudgyCar() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
@@ -69,7 +62,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className=" lg:w-siteW w-full m-auto py-12 px-4 relative group">
+    <div className=" lg:w-imgW w-full m-auto py-12 px-4 relative group">
       {/* Image Container */}
       <div className="relative w-full h-[300px] md:h-[500px] rounded-2xl bg-center bg-cover duration-500 overflow-hidden shadow-xl">
         <Image
